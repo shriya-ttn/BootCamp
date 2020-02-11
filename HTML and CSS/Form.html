@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta>
+<title>Form_ShriyaGarg</title>
+</head>
+<style>
+input[type=text],input[type=file]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #c6ffb3;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  margin-left: auto; 
+  margin-right: auto;
+  height: 100%;
+  width: 60%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+div.heading {
+            margin: -50px 150px 0px -50px;
+            width: 112%;
+            padding: 5px 5px 5px 0;
+            letter-spacing: 0.1em;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-bottom: 0px solid #FCE205;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px; 
+            text-align: center;
+            background-color: #d6d6c2;
+            color: black;
+h1{
+  margin-left: auto; 
+  margin-right: auto;
+  height: 100%;
+  color: #c6ffb3;
+  width: 60%;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  padding: 10px;
+
+}
+</style>
+<body>
+<p align="center" style="color:#004d00"><b> TO THE NEW &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp;  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &emsp; Shriya Garg </b> </p>
+<div>
+	
+	<div class="heading">
+            <h1 align="center">Bug Report</h1>
+        </div>
+        <br>
+	<form action="/action_page.php">
+	  First name*<br>
+	  <input type="text" name="firstname" required="Enter"><br><br>
+
+	  Description*<br>
+	  <textarea style="width: 100%" id="desc" required="" rows="5"></textarea><br><br>	  
+
+	  <label for="OS">Choose Operating System</label>	<br>
+	  <select id="OS">	<br>
+	    <option value="Windows">Windows</option>
+	    <option value="IOS">IOS</option>
+	    <option value="Android">Android</option>
+	  </select><br><br>
+
+		<label for="Product">Product:</label><br>
+		<select id="Product">	<br>
+			<option value="Prod1">Prod1</option>
+			<option value="Prod2">Prod2</option>
+			<option value="Prod3">Prod3</option>
+		</select><br>
+	  
+	  <br> Version*<br>
+	  <input type="number" name="Version" step="3" required="Enter"><br>
+	  <br>
+
+	  License <br>
+	  <input type="radio" name="License" value="free"> Free 
+	  <input type="radio" name="License" value="paid"> Paid<br><br>
+
+
+	<label for="Severity">Severity</label><br>
+	  <select id="Severity">	<br>
+	    <option value="Critical">Cricital</option>
+	    <option value="Normal">Normal</option>
+	    <option value="Low">Low</option>
+	  </select><br><br>
+
+
+	 Select a file: <br>
+	 <input type="file" name="myFile"><br><br>
+
+
+	<br>
+	  <input type="Submit" value="Save" align="right">
+	<br>
+
+	</form>
+</div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
