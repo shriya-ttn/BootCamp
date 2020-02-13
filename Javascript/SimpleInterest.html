@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="utf-8">
+    <title>javascript exercise</title>
+</head>
+<body>
+<script type="text/javascript">
+    function simpl()
+    {
+        var p,r,t;
+        p=parseFloat(prompt("Enter Principal Amount"));
+        r=parseFloat(prompt("Enter Rate"));
+        t=parseFloat(prompt("Enter Time(in years)"));
+        var si=(p*r*t)/100;
+        document.write("Simple Interest := \n" + si );
+        document.write("\n\nSimple Amount := " + (p+si));
+    }
+</script>
+
+<center>
+<input type="button" value="Calculate simple intrest" onclick= "simpl()" />
+</center>
+</body>
+</html>

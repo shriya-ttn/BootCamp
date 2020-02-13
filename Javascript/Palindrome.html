@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Palindrome</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		pal = () =>{
+			var str = prompt("Enter a string");
+			var len =str.length;
+			var mid =Math.floor(len/2);
+			for(var i=0; i<mid; i++){
+				if(str[i]!==str[len-1-i]){
+					document.write(str +" is Not a Palindrome");
+					return 0;
+				}
+			}
+			
+			document.write(str+" is a Palindrome");
+			return 1;
+	}
+	</script>	
+</head>
+<body>
+<center>
+	<button onclick="pal()">Kindly Enter string to check the palindrome</button>
+</center>
+</body>
+</html>
