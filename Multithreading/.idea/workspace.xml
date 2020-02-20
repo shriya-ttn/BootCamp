@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd6ee703-95c2-4a1a-97f0-e1f78a899f28" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y0nKMa0z9M95hI8Thg1fIdZyrO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.Q10Deadlock">
+    <configuration name="JoinSleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dayThree.Q6.JoinSleep" />
+      <module name="Multithreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dayThree.Q6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q10Deadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dayThree.Q10Deadlock" />
+      <module name="Multithreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dayThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q5WaitNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dayThree.Q5WaitNotify" />
+      <module name="Multithreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dayThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Semaphores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dayThree.Semaphores" />
+      <module name="Multithreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dayThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadPoolOddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dayThree.Q4.ThreadPoolOddEven" />
+      <module name="Multithreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dayThree.Q4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Q10Deadlock" />
+        <item itemvalue="Application.ThreadPoolOddEven" />
+        <item itemvalue="Application.Q5WaitNotify" />
+        <item itemvalue="Application.JoinSleep" />
+        <item itemvalue="Application.Semaphores" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd6ee703-95c2-4a1a-97f0-e1f78a899f28" name="Default Changelist" comment="" />
+      <created>1582088314337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582088314337</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="311" y="58" width="800" height="677" key="#Project_Structure" timestamp="1582088337951">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="58" width="800" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1582088337951" />
+    <state x="808" y="110" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1582177395167">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="808" y="110" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1582177395167" />
+    <state width="555" height="152" key="GridCell.Tab.0.bottom" timestamp="1582219697865">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="555" height="152" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582219697865" />
+    <state width="555" height="152" key="GridCell.Tab.0.center" timestamp="1582219697865">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="555" height="152" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582219697865" />
+    <state width="555" height="152" key="GridCell.Tab.0.left" timestamp="1582219697864">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="555" height="152" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582219697864" />
+    <state width="555" height="152" key="GridCell.Tab.0.right" timestamp="1582219697865">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="555" height="152" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582219697865" />
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1582219646905">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582219646905" />
+    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1582219646904">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1582219646904" />
+    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1582219646904">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1582219646904" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1582219646905">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1582219646905" />
+    <state x="678" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1582219661220">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="678" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1582219661220" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Multithreading$ThreadPool.ic" NAME="ThreadPool Coverage Results" MODIFIED="1582178314769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dayThree.Q4.*</FILTER>
+    </SUITE>
+  </component>
+</project>
