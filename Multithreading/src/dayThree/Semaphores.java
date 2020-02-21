@@ -9,7 +9,7 @@ class Connection {
 
     private static Connection instance = new Connection();
 
-    private Semaphore sem = new Semaphore(5, true);
+    private Semaphore sem = new Semaphore(4, true);
 
     private int connections = 0;
 
@@ -22,6 +22,7 @@ class Connection {
     public void connect() {
         try {
             sem.acquire();
+            System.out.println("Semaphore Acquire.." + Thread.currentThread().getName());
         } catch (InterruptedException e1) {
             e1.printStackTrace();
         }
@@ -31,6 +32,7 @@ class Connection {
         } finally {
 
             sem.release();
+            System.out.println("Semaphore Released" + Thread.currentThread().getName());
         }
     }
 
@@ -42,7 +44,7 @@ class Connection {
         }
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(200);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -58,7 +60,7 @@ public class Semaphores {
 
         ExecutorService executor = Executors.newCachedThreadPool();
 
-        for(int i=0; i < 20; i++) {
+        for(int i=0; i < 10; i++) {
             executor.submit(new Runnable() {
                 public void run() {
                     Connection.getInstance().connect();

@@ -10,7 +10,7 @@ public class Q5WaitNotify {
 
                 try{
                     System.out.println("Waiting for b to complete...");
-                    b.wait();
+                   b.wait();
                 }catch(InterruptedException e){
                     e.printStackTrace();
                 }

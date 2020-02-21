@@ -1,14 +1,22 @@
 package dayThree.Q4;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 public class ThreadPoolOddEven {
 
     public static void main(String args[]) {
         Printer print = new Printer();
 
+        ExecutorService executor = Executors.newCachedThreadPool();
+
         Thread t1 = new Thread(new TaskEvenOdd(print, 10, false));
         Thread t2 = new Thread(new TaskEvenOdd(print, 10, true));
-        t1.start();
-        t2.start();
+//        t1.start();
+//        t2.start();
+
+        executor.submit(t1);
+        executor.submit(t2);
     }
 
 }

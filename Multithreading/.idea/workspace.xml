@@ -26,7 +26,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Q10Deadlock">
+  <component name="RunManager" selected="Application.Semaphores">
     <configuration name="JoinSleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dayThree.Q6.JoinSleep" />
       <module name="Multithreading" />
@@ -94,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q10Deadlock" />
+        <item itemvalue="Application.Semaphores" />
         <item itemvalue="Application.ThreadPoolOddEven" />
         <item itemvalue="Application.Q5WaitNotify" />
+        <item itemvalue="Application.Q10Deadlock" />
         <item itemvalue="Application.JoinSleep" />
-        <item itemvalue="Application.Semaphores" />
       </list>
     </recent_temporary>
   </component>
@@ -124,22 +124,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="808" y="110" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1582177395167" />
-    <state width="555" height="152" key="GridCell.Tab.0.bottom" timestamp="1582219697865">
+    <state width="1253" height="152" key="GridCell.Tab.0.bottom" timestamp="1582272895993">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="555" height="152" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582219697865" />
-    <state width="555" height="152" key="GridCell.Tab.0.center" timestamp="1582219697865">
+    <state width="1253" height="152" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582272895993" />
+    <state width="1253" height="152" key="GridCell.Tab.0.center" timestamp="1582272895993">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="555" height="152" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582219697865" />
-    <state width="555" height="152" key="GridCell.Tab.0.left" timestamp="1582219697864">
+    <state width="1253" height="152" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582272895993" />
+    <state width="1253" height="152" key="GridCell.Tab.0.left" timestamp="1582272895993">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="555" height="152" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582219697864" />
-    <state width="555" height="152" key="GridCell.Tab.0.right" timestamp="1582219697865">
+    <state width="1253" height="152" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582272895993" />
+    <state width="1253" height="152" key="GridCell.Tab.0.right" timestamp="1582272895993">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="555" height="152" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582219697865" />
+    <state width="1253" height="152" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582272895993" />
     <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1582219646905">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -156,10 +156,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1582219646905" />
-    <state x="678" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1582219661220">
+    <state x="678" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1582267782461">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="678" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1582219661220" />
+    <state x="678" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1582267782461" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Multithreading$ThreadPool.ic" NAME="ThreadPool Coverage Results" MODIFIED="1582178314769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
