@@ -1,5 +1,9 @@
 package Collection;
 
+/*
+* Write a program to sort the Student objects based on Score , if the score are
+* same then sort on First Name . Class Student{ String Name; Double Score; Double Age*/
+
 import java.util.*;
 import java.util.concurrent.ConcurrentMap;
 
@@ -12,7 +16,7 @@ class Student{
 
     public Student(String studentFirstName, String studentLastName, Double studentAge, Double studentScore) {
         this.studentFirstName = studentFirstName;
-        StudentLastName = studentLastName;
+        this.StudentLastName = studentLastName;
         this.studentAge = studentAge;
         this.studentScore = studentScore;
     }
@@ -37,13 +41,15 @@ public class Q6SortStudent {
         studentList.add(new Student("Divya", "Arora", 23d, 85d));
         studentList.add(new Student("Himani", "Sharma", 20d, 90d ));
         studentList.add(new Student("Shivani", "Gulati", 21d, 90d));
+        studentList.add(new Student("Reemanaa", "Rana", 20d, 45d ));
 
         Collections.sort(studentList, new ScoreAndFirstNameComparator());
+
         Iterator iterator = studentList.iterator();
         while (iterator.hasNext())
         {
             Student s = (Student)iterator.next();
-            System.out.println(" "+s.studentFirstName+" "+s.StudentLastName+" "+s.studentAge+" "+s.studentScore);
+            System.out.println("Name-"+s.studentFirstName+" "+s.StudentLastName+" ; Age-"+s.studentAge+" ; Score-"+s.studentScore);
         }
 
     }

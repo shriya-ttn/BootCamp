@@ -5,7 +5,133 @@ Design a Data Structure SpecialStack that supports all the stack operations like
 , isEmpty(), isFull() and an additional operation getMin() which should return minimum element
  from the SpecialStack. (Expected complexity ­ O(1))
 */
+//Slight problem in implementation of changing capacity value
 
+import java.util.Stack;
+
+public class Q8SpecialStack extends Stack<Integer>
+{
+    Stack<Integer> min = new Stack<Integer>();
+
+
+    //int maxSize;
+  /*  Q8SpecialStack(int size)
+    {
+        super();
+        this.maxSize=size;
+    }*/
+
+    public void isEmptyy(){
+       // if(isEmpty()) System.out.println("Stack Empty");
+        if(super.size()==0)
+       System.out.println("Stack  Empty");
+        else System.out.println("Stack Empty");
+
+    }
+
+    public void isFull(){
+        if (super.size()<super.capacity())
+        {System.out.println("Not full yet");
+       // return 1;
+            }
+        else {System.out.println("Stack Full"); }//return -1;}
+    };
+
+    void push(int x)
+    {
+        if(isEmpty())
+        {
+            super.push(x);
+            min.push(x);
+        }
+        else if (super.size()<super.capacity())
+        {
+            super.push(x);
+            int y = min.pop();
+            min.push(y);
+
+            if( x <= y )
+                min.push(x);
+        }
+        else System.out.println("Stack full, entry not allowed");
+    }
+
+
+    public Integer pop()
+    {
+        if(super.isEmpty()==false) {
+            int x = super.pop();
+            int y = min.pop();
+
+
+            if (y != x)
+                min.push(y);
+            return x;
+        }
+        else {
+            System.out.println("Not allowed");
+            return -1;
+        }
+    }
+
+
+    int getMin()
+    {
+        int x = min.pop();
+        min.push(x);
+        System.out.print("Min value : ");
+        return x;
+    }
+
+
+    public static void main(String[] args)
+    {
+        Q8SpecialStack s = new Q8SpecialStack();
+        s.isEmptyy();
+        s.push(5);
+        s.push(2);
+        s.push(1);
+
+        s.push(20);
+        s.isFull();
+        s.push(30);
+        System.out.println(s.getMin());
+        System.out.println("Integer removed "+s.pop());
+        System.out.println(s.getMin());
+        s.push(9);
+        s.getMin();
+        System.out.println("Integer removed "+s.pop());
+        System.out.println("Integer removed "+s.pop());
+        System.out.println(s.getMin());
+        System.out.println("Integer removed "+s.pop());
+        System.out.println(s.getMin());
+        System.out.println("Integer removed "+s.pop());
+        System.out.println(s.getMin());
+        //System.out.println("minimum element is "+s.getMin());
+       // s.isFull();
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 import java.util.LinkedList;
 import java.util.Stack;
@@ -15,7 +141,8 @@ class SpecialStack {
     int len;
     Stack<Integer> stack;
     LinkedList<Integer>minList;
-    int minimumElement;
+    int minimumElement;x
+
     SpecialStack(int size){
         this.size=size;
         stack=new Stack<Integer>();
@@ -105,3 +232,4 @@ public class Q8SpecialStack {
 
     }
 }
+*/
