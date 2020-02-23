@@ -1,5 +1,8 @@
 package Collection;
 
+/*Write a method that takes a string and print the number of
+ occurrence of each character characters in the string.*/
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -8,7 +11,7 @@ public class Q3CharCount {
 
     public static void uniqueCountt(String word) {
         Map<Character, Integer> map = new HashMap<Character, Integer>();
-        ///char[] charAarry = text.toCharArray();
+        ///char[] charArray = text.toCharArray();
         for(Character c : word.toCharArray()) {
             if (map.containsKey(c)) {
                 map.put(c, map.get(c) + 1);

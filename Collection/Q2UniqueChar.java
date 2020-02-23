@@ -1,5 +1,9 @@
 package Collection;
 
+/*
+* Write a method that takes a string and returns the
+*  number of unique characters in the string.*/
+
 import java.util.HashSet;
 import java.util.Scanner;
 
