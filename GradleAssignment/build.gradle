@@ -1,0 +1,60 @@
+buildscript{
+    dependencies{
+        classpath files ("show-date/build/libs/show-date-1.0-SNAPSHOT.jar")
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+apply plugin: "java"
+apply plugin: "show-date-plugin"
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven{
+        url "\thttps://repo1.maven.org/maven2/"
+    }
+}
+
+
+dependencies {
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.8.6'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    runtime 'systems.uom:systems-quantity:0.3'
+   // testRuntime project(':web-27-config')
+}
+
+sourceSets{
+    main{
+        java {
+            srcDirs = ['src/main/javaCode1', 'src/main/javaCode2']
+        }
+        }
+    }
+/*
+
+//Q4
+task showDate{
+    println"This is Ques 4"
+    println 'Current Date ======= '+new Date()
+}
+*/
+
+
+jar{
+    manifest{
+
+        manifest {
+            attributes(
+                    "Main-Class": 'Application',
+                    "Class-Path": configurations.compile.collect { it.getName() }.join(' '))
+
+        }
+    }
+}
