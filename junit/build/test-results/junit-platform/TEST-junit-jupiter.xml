@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="2" skipped="0" failures="0" errors="0" time="0.021" hostname="Shriya-Garg" timestamp="2020-02-26T10:57:57">
+<properties>
+<property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+<property name="file.encoding" value="UTF-8"/>
+<property name="file.encoding.pkg" value="sun.io"/>
+<property name="file.separator" value="/"/>
+<property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+<property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+<property name="java.class.path" value="/home/shriya/Downloads/ttn-bootcamp-junit-master/build/classes/java/test:/home/shriya/Downloads/ttn-bootcamp-junit-master/build/resources/test:/home/shriya/Downloads/ttn-bootcamp-junit-master/build/classes/java/main:/home/shriya/Downloads/ttn-bootcamp-junit-master/build/resources/main:/home/shriya/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.2/e57de973ac81662ec2b9b225df6c882a641fabe6/junit-jupiter-engine-5.0.2.jar:/home/shriya/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.0.2/4024737a023e98dc6c9cbbd89fe0dd83975df65/junit-jupiter-api-5.0.2.jar:/home/shriya/.gradle/caches/modules-2/files-2.1/org.junit.vintage/junit-vintage-engine/4.12.2/3ee780f46c5669ba5cf6a70405c49becec6f2cef/junit-vintage-engine-4.12.2.jar:/home/shriya/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/home/shriya/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.9.0/52f6548ae1688e126c29b5dc400929dc0128615/log4j-core-2.9.0.jar:/home/shriya/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-jul/2.9.0/42fcf24286676172f2cf4665a6bdf23e1fbf6bae/log4j-jul-2.9.0.jar:/home/shriya/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.0.2/7cd136827fbfe3e6301b95f0340d654ad54feaa4/junit-platform-launcher-1.0.2.jar:/home/shriya/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.0.2/ae5d9b8c44d78da636e4e1e00a907fe0fb7bcb8f/junit-platform-engine-1.0.2.jar:/home/shriya/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.0.0/6f09c598e9ff64bf0ce2fa7e7de49a99ba83c0b4/opentest4j-1.0.0.jar:/home/shriya/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.0.2/e348a3a67940694f0718d04f9b0784b3dfb7819b/junit-platform-commons-1.0.2.jar:/home/shriya/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/home/shriya/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.9.0/e0dcd508dfc4864a2f5a1963d6ffad170d970375/log4j-api-2.9.0.jar:/home/shriya/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.0.2/2bf2cd18040bfe229bad813c7ab150a0f7ea8153/junit-platform-console-1.0.2.jar"/>
+<property name="java.class.version" value="52.0"/>
+<property name="java.endorsed.dirs" value="/home/shriya/.sdkman/candidates/java/8.0.242-zulu/jre/lib/endorsed"/>
+<property name="java.ext.dirs" value="/home/shriya/.sdkman/candidates/java/8.0.242-zulu/jre/lib/ext:/usr/java/packages/lib/ext"/>
+<property name="java.home" value="/home/shriya/.sdkman/candidates/java/8.0.242-zulu/jre"/>
+<property name="java.io.tmpdir" value="/tmp"/>
+<property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+<property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+<property name="java.runtime.version" value="1.8.0_242-b20"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="1.8"/>
+<property name="java.util.logging.manager" value="org.apache.logging.log4j.jul.LogManager"/>
+<property name="java.vendor" value="Azul Systems, Inc."/>
+<property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+<property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+<property name="java.version" value="1.8.0_242"/>
+<property name="java.vm.info" value="mixed mode"/>
+<property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="1.8"/>
+<property name="java.vm.vendor" value="Azul Systems, Inc."/>
+<property name="java.vm.version" value="25.242-b20"/>
+<property name="line.separator" value="
+"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Linux"/>
+<property name="os.version" value="4.15.0-88-generic"/>
+<property name="path.separator" value=":"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.class.path" value="/home/shriya/.sdkman/candidates/java/8.0.242-zulu/jre/lib/resources.jar:/home/shriya/.sdkman/candidates/java/8.0.242-zulu/jre/lib/rt.jar:/home/shriya/.sdkman/candidates/java/8.0.242-zulu/jre/lib/sunrsasign.jar:/home/shriya/.sdkman/candidates/java/8.0.242-zulu/jre/lib/jsse.jar:/home/shriya/.sdkman/candidates/java/8.0.242-zulu/jre/lib/jce.jar:/home/shriya/.sdkman/candidates/java/8.0.242-zulu/jre/lib/charsets.jar:/home/shriya/.sdkman/candidates/java/8.0.242-zulu/jre/lib/jfr.jar:/home/shriya/.sdkman/candidates/java/8.0.242-zulu/jre/classes"/>
+<property name="sun.boot.library.path" value="/home/shriya/.sdkman/candidates/java/8.0.242-zulu/jre/lib/amd64"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value=""/>
+<property name="sun.desktop" value="gnome"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --details NONE --scan-class-path /home/shriya/Downloads/ttn-bootcamp-junit-master/build/classes/java/main:/home/shriya/Downloads/ttn-bootcamp-junit-master/build/resources/main:/home/shriya/Downloads/ttn-bootcamp-junit-master/build/classes/java/test:/home/shriya/Downloads/ttn-bootcamp-junit-master/build/resources/test -n ^.*Tests?$ -T slow --reports-dir /home/shriya/Downloads/ttn-bootcamp-junit-master/build/test-results/junit-platform"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="UTF-8"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value="unknown"/>
+<property name="user.country" value="IN"/>
+<property name="user.dir" value="/home/shriya/Downloads/ttn-bootcamp-junit-master"/>
+<property name="user.home" value="/home/shriya"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="shriya"/>
+<property name="user.timezone" value="Asia/Colombo"/>
+<property name="user.variant" value=""/>
+</properties>
+<testcase name="canary()" classname="com.im.FirstTest" time="0.006">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[method:canary()]
+display-name: canary()
+]]></system-out>
+</testcase>
+<testcase name="fixMe()" classname="healthycoderapp.BMICalculatorTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[method:fixMe()]
+display-name: fixMe()
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>
