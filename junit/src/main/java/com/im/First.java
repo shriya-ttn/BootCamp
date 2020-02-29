@@ -69,4 +69,3 @@ public class First {
         return isPallindrome;
     }
 }
-
