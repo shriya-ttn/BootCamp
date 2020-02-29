@@ -101,6 +101,22 @@ class BMICalculatorTest {
         assertArrayEquals(expected, bmiScores);
     }
 
+    @Test
+    void should_getBMIscores_whencoderlistnotempty()
+    {
+        //given
+        List<Coder> coder = new ArrayList<>();
+        coder.add(new Coder(1.8,98));
+        coder.add(new Coder(1.75,80));
+        double[] actual_BMI = new double[]{30.25,26.12};
 
+        //when
+        double[] list_coders = BMICalculator.getBMIScores(coder);
+
+
+        //then
+        assertArrayEquals(actual_BMI,list_coders);
+
+    }
 
 }

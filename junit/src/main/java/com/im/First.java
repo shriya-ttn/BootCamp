@@ -62,10 +62,12 @@ public class First {
         Boolean isPallindrome = false;
         String reverseString = new StringBuilder(origString).reverse().toString();
 
-        // Check palindrome string
+        // Check palindrome stringhttps://github.com/imranmir/ttn-bootcamp-junit
         if (origString.equals(reverseString)) {
             isPallindrome = true;
         }
         return isPallindrome;
     }
+
+
 }
