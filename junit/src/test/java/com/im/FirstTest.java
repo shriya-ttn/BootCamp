@@ -50,12 +50,10 @@ public class FirstTest {
         mainString = given;
         String subString = sub;
         String replacement = substitution;
+        // when
         String received = first.replaceSubString(mainString, subString, replacement);
-        /* when */
-        //boolean output = mainString.equals(received);
 
         //then
-        //assertTrue(output);
         assertEquals(mainString, received);
     }
 
