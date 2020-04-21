@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="negativeCase.BookingWithoutPassenger">
+        <methods>
+          <include name="ShouldNot_BookFlight_Without_Customer_Details"/>
+        </methods>
+      </class> <!-- negativeCase.BookingWithoutPassenger -->
+      <class name="negativeCase.FromDateGreaterThanToDate">
+        <methods>
+          <include name="ShouldNot_BookFlight_With_FromDate_GreaterThan_ToDate"/>
+        </methods>
+      </class> <!-- negativeCase.FromDateGreaterThanToDate -->
+      <class name="negativeCase.SameDepartueArrival">
+        <methods>
+          <include name="ShouldNot_BookFlight_With_SameDepartureAndArrival"/>
+        </methods>
+      </class> <!-- negativeCase.SameDepartueArrival -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
