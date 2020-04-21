@@ -1,11 +1,15 @@
+Kindly refer packages liveProject and negativeCase.
+
+
 This is a link to the google doc where manual test cases are written:
 https://docs.google.com/document/d/1OtstMOJ8PmJtcMEx92XAk9E8aMfTl7eWuB2MDGchrgY/edit?usp=sharing
 
-Link: http://newtours.demoaut.com/.
+
 
 ...............................................................
 EXERCISE: Live Project Assignment
 
+Link: http://newtours.demoaut.com/.
 Write 5 functional test cases (Manual) and then automate them
 
 Test Plan Name Over TestLink:  Live Project_(Today's date)
