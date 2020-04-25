@@ -1,4 +1,5 @@
 Kindly refer packages liveProject and negativeCase.
+(day1, day2 and day3 are selenium session 1 ,2 and 3 which I didnt remove to avoid any complexity in project imports)
 
 
 This is a link to the google doc where manual test cases are written:
