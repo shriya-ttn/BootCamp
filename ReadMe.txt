@@ -8,6 +8,7 @@ https://docs.google.com/document/d/1OtstMOJ8PmJtcMEx92XAk9E8aMfTl7eWuB2MDGchrgY/
 
 
 ...............................................................
+
 EXERCISE: Live Project Assignment
 
 Link: http://newtours.demoaut.com/.
